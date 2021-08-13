@@ -24,9 +24,11 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 280%;
+    margin-left: 30px;
 }
 
 /* navigation links */
+
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
@@ -55,9 +57,9 @@ h1, h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* Hero image */
+/* hero image and cover text */
 
-#hero-outer{
+#hero-outer {
     height: 600px;
     width: 100%;
     overflow: hidden;
@@ -67,7 +69,6 @@ h1, h2 {
 
 #cover-text, #cover-text h2 {
     color: #fff;
-
 }
 
 #cover-text {
@@ -124,19 +125,46 @@ h1, h2 {
     padding-top: 30px;
     width: 33%;
     float: left;
-    background-color: blue;
 }
 
 #right-about {
     padding-top: 30px;
     width: 33%;
     float: right;
-    background-color: red;
 }
 
 #center-about {
     width: 33%;
-    padding-top: 30px;
     margin: 0 auto;
     background-color: yellow;
+}
+
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading {
+    width: 60%;
+    float: left;
+    light-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading h2 {
+    text-align: right;
+}
+
+.right-about-heading p {
+    text-align: right;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
 }
